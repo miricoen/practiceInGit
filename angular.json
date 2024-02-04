@@ -65,7 +65,8 @@
               "buildTarget": "proxyAngular:build:production"
             },
             "development": {
-              "buildTarget": "proxyAngular:build:development"
+              "buildTarget": "proxyAngular:build:development",
+              "proxyConfig": "Y:/teachers for hitmachut/angular-f/ו-2/my-project-2/src/app/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +74,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "proxyAngular:build"
+            "buildTarget": "proxyAngular:build",
+            "proxyConfig": "Y:/teachers for hitmachut/angular-f/ו-2/my-project-2/src/app/proxy.config.json"
           }
         },
         "test": {
