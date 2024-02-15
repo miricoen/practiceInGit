@@ -11,6 +11,7 @@ import { AddCarComponent
   imports: [CommonModule, RouterOutlet,AddCarComponent],
   templateUrl:'./app.component.html' ,       
   styleUrl: './app.component.css'
+  
 })
 export class AppComponent {
   title = 'proxyAngular';
