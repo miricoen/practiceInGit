@@ -5,7 +5,7 @@ import { __decorate } from "tslib"; // Add this line
   selector: 'app-car-component',
   standalone: true,
   imports: [],
-  templateUrl: './car-component.component.html',
+
   styleUrl: './car-component.component.css'
 })
 export class CarComponent {
