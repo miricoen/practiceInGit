@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 
+import { Component } from '@angular/core';
 @Component({
   selector: 'app-dvoriti-change',
   standalone: true,
@@ -10,3 +10,7 @@ import { Component } from '@angular/core';
 export class DvoritiChangeComponent {
 
 }
+function Component(arg0: { selector: string; standalone: boolean; imports: never[]; templateUrl: string; styleUrl: string; }): (target: typeof DvoritiChangeComponent) => void | typeof DvoritiChangeComponent {
+  throw new Error("Function not implemented.");
+}
+
