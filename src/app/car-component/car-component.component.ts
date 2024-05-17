@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { __decorate } from "tslib"; // Add this line
 
 @Component({
   selector: 'app-car-component',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
   templateUrl: './car-component.component.html',
   styleUrl: './car-component.component.css'
 })
-export class CarComponentComponent {
-
+export class CarComponent {
+  carName = 'Ford';
+  carYear = 2017;
 }
